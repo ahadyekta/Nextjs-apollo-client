@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
-export const Footer = () => {
+const Footer = () => {
     return (<footer className={styles.footer}>
         <ul className={styles.nav}>
           <li>
@@ -13,3 +13,5 @@ export const Footer = () => {
         </ul>
       </footer>
 )}
+
+export default Footer;
