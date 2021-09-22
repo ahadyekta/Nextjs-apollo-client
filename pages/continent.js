@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import  Footer  from '../components/footer';
+import  Footer  from '../components/Footer';
 import Languages from '../components/Languages';
 import { initializeApollo } from '../lib/apolloClient';
 import { CONTINENT_QUERY } from '../lib/queries';

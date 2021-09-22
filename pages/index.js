@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Continents from '../components/Continents';
 import ContinentsCache  from '../components/ContinentsCache';
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 import Languages from '../components/Languages';
 import { initializeApollo } from '../lib/apolloClient';
 import { CONTINENTS_QUERY } from '../lib/queries';
