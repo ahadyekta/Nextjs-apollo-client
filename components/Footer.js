@@ -10,6 +10,9 @@ const Footer = () => {
           <li>
             <Link href='/langs' >Languages</Link>
           </li>
+          <li>
+            <Link href='/bitcoin' >Bitcoin price</Link>
+          </li>
         </ul>
       </footer>
 )}

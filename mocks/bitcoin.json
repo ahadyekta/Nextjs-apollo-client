@@ -1,0 +1,26 @@
+{
+    "chartName": "Mocked Bitcoin",
+    "bpi": {
+        "USD": {
+            "code": "Mocked USD",
+            "symbol": "&#36;",
+            "rate": "1,000,000,000",
+            "description": "United States Dollar",
+            "rate_float": 42524.3333
+        },
+        "GBP": {
+            "code": "Mocked GBP",
+            "symbol": "&pound;",
+            "rate": "1,000,000,000",
+            "description": "British Pound Sterling",
+            "rate_float": 31007.213
+        },
+        "EUR": {
+            "code": "Mocked EUR",
+            "symbol": "&euro;",
+            "rate": "1,000,000,000",
+            "description": "Euro",
+            "rate_float": 36348.8646
+        }
+    }
+}

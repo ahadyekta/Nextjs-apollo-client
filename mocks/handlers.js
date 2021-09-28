@@ -1,4 +1,7 @@
-import { graphql } from 'msw'
+import { graphql, rest } from 'msw'
+import bitcoinData from './bitcoin.json';
+
+
 export const handlers = [
     graphql.query('continents', (req, res, ctx) => {
       return res(
@@ -33,5 +36,10 @@ export const handlers = [
             ],
           }),
         )
-      })
+      }),
+      rest.get('https://api.coindesk.com/v1/bpi/currentprice.json', (req, res, ctx) => {
+        return res(
+          ctx.json(bitcoinData),
+        )
+      }),
 ]
